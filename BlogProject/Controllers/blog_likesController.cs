@@ -22,6 +22,10 @@ namespace BlogProject.Controllers
             return db.blog_likes;
         }
 
+
+
+
+
         // GET: api/blog_likes/5
         [ResponseType(typeof(blog_likes))]
         public IQueryable<blog_likes> Getblog_likes(string id)
